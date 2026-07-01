@@ -1,0 +1,16 @@
+{{- define "breadcrumb" -}}
+  {{- $title := .Title -}}
+  <nav class="book-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ .Site.Home.RelPermalink }}">หน้าแรก</a>
+    {{- if ne .Kind "home" -}}
+      <span class="separator">/</span>
+      <a href="{{ with .Site.GetPage "section" "chapters" }}{{ .RelPermalink }}{{ end }}">สารบัญ</a>
+      {{- if ne .Title "สารบัญบทเรียน" -}}
+        <span class="separator">/</span>
+        <span>{{ $title }}</span>
+      {{- end -}}
+    {{- end -}}
+  </nav>
+{{- end -}}
+
+{{- template "breadcrumb" . -}}

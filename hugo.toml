@@ -1,0 +1,8 @@
+baseURL = "https://burapatis.github.io/mybook1/"
+locale = "th-TH"
+defaultContentLanguage = "th"
+title = "หนังสือของผม"
+theme = "hugo-book"
+
+[params]
+  BookSection = "chapters"

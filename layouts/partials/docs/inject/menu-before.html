@@ -1,0 +1,16 @@
+<div class="book-sidebar-groups">
+  <div class="book-sidebar-group">
+    <div class="book-sidebar-heading">
+      <span class="book-sidebar-icon">📚</span>
+      <span>สารบัญหนังสือ</span>
+    </div>
+    <a class="book-sidebar-link" href="{{ with .Site.GetPage "section" "chapters" }}{{ .RelPermalink }}{{ end }}">
+      <span class="book-sidebar-link-icon">📖</span>
+      <span>สารบัญบทเรียน</span>
+    </a>
+    <a class="book-sidebar-link" href="{{ .Site.Home.RelPermalink }}">
+      <span class="book-sidebar-link-icon">🏠</span>
+      <span>หน้าแรกหนังสือ</span>
+    </a>
+  </div>
+</div>
