@@ -47,4 +47,6 @@ hugo --minify
 
 แก้ไขไฟล์ใน `content/chapters/` แล้วรัน `hugo server` เพื่อดูตัวอย่าง
 
+โครงสร้างเนื้อหา: คำนำ · บทที่ 1–15 · บรรณานุกรม · ดัชนี (แยกไฟล์ `16-บรรณานุกรม.md`, `17-ดัชนี.md`)
+
 ไฟล์ `textbook_teacher_professional_standards.md` เป็นเอกสารต้นฉบับรวมทุกบท ใช้อ้างอิงหรือ sync กับ `content/chapters/` ได้

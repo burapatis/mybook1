@@ -1,6 +1,6 @@
 ---
 title: "บทที่ 10: การวิจัยในชั้นเรียน (Classroom Action Research)"
-weight: 10
+weight: 110
 ---
 
 **วัตถุประสงค์การเรียนรู้ของบท**

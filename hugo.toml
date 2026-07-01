@@ -1,11 +1,13 @@
 baseURL = "https://burapatis.github.io/mybook1/"
 locale = "th-TH"
 defaultContentLanguage = "th"
-title = "หนังสือของผม"
+title = "มาตรฐานวิชาชีพครู"
 theme = "hugo-book"
 
 [params]
   BookSection = "chapters"
+  BookLogo = "images/book-logo.svg"
+  BookToC = false
 
 [markup.goldmark.renderer]
   unsafe = true

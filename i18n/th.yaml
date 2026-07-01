@@ -1,0 +1,5 @@
+- id: Search
+  translation: ค้นหา
+
+- id: bookSearchConfig
+  translation: '{ "cache": true }'

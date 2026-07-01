@@ -1,0 +1,165 @@
+// ปกหน้าแรก — แสดงภาพอย่างเดียว ไม่ซ้อนข้อความ HTML
+.book-cover {
+  margin: 0 0 2rem;
+}
+
+.book-cover-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.book-cover-image {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(22, 52, 83, 0.15);
+}
+
+// ข้อความโครงการวิจัยและปุ่มแจ้งข้อผิดพลาด (หน้าแรก)
+.book-home-notice {
+  margin: 0 0 2rem;
+  padding: 1rem 1.15rem;
+  border-radius: 10px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+}
+
+.book-home-notice p {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+}
+
+.book-feedback-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  background: #2b5d8c;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.book-feedback-button:hover,
+.book-feedback-button:focus {
+  background: #234d72;
+  color: #fff !important;
+}
+
+// สารบัญบทเรียน
+.book-index-cover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.book-index-cover-image img {
+  display: block;
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(22, 52, 83, 0.12);
+}
+
+.book-index-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-index-brand img {
+  width: 32px;
+  height: 32px;
+}
+
+.book-index-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.book-index-item {
+  margin: 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.book-index-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-index-link:hover {
+  color: var(--color-link);
+}
+
+.book-index-meta {
+  color: var(--gray-500);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+// โลโก้และชื่อใน sidebar
+.book-brand {
+  margin-bottom: 1rem;
+
+  a {
+    align-items: flex-start;
+    gap: 0.5rem;
+    text-decoration: none;
+  }
+
+  img {
+    flex: 0 0 auto;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.1rem;
+  }
+
+  span {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.35;
+    word-break: break-word;
+  }
+}
+
+// ลิงก์กลับเว็บครุจิต (sidebar)
+.book-sidebar-krujit {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.book-krujit-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  background: #2b5d8c;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.book-krujit-link:hover,
+.book-krujit-link:focus {
+  background: #234d72;
+  color: #fff !important;
+}

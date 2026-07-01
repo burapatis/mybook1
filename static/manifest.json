@@ -1,0 +1,18 @@
+{
+  "name": "มาตรฐานวิชาชีพครู",
+  "short_name": "มาตรฐานครู",
+  "description": "ฐานความรู้สำหรับครูมืออาชีพในศตวรรษที่ 21",
+  "lang": "th",
+  "start_url": "/mybook1/",
+  "scope": "/mybook1/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2b5d8c",
+  "icons": [
+    {
+      "src": "/mybook1/images/book-logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Teacher Professional Standards:
 
 Knowledge Foundations for 21st Century Professional Teachers
 
-ผู้แต่ง: คณาจารย์ผู้สอนวิชามาตรฐานวิชาชีพครู
+ผู้แต่ง: Boorapatis Ploysuwan
 
 คณะครุศาสตร์ / ศึกษาศาสตร์
 

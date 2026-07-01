@@ -12,5 +12,17 @@
       <span class="book-sidebar-link-icon">🏠</span>
       <span>หน้าแรกหนังสือ</span>
     </a>
+    {{ with .Site.GetPage "chapters/16-บรรณานุกรม" }}
+    <a class="book-sidebar-link" href="{{ .RelPermalink }}">
+      <span class="book-sidebar-link-icon">📑</span>
+      <span>บรรณานุกรม</span>
+    </a>
+    {{ end }}
+    {{ with .Site.GetPage "chapters/17-ดัชนี" }}
+    <a class="book-sidebar-link" href="{{ .RelPermalink }}">
+      <span class="book-sidebar-link-icon">🔍</span>
+      <span>ดัชนี</span>
+    </a>
+    {{ end }}
   </div>
 </div>

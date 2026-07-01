@@ -1,6 +1,7 @@
 ---
 title: "สารบัญบทเรียน"
 weight: 1
+bookHidden: true
 BookSection: "chapters"
 ---
 
@@ -8,14 +9,14 @@ BookSection: "chapters"
 
 <div class="book-index-cover">
   <div class="book-index-cover-image">
-    <img src="/mybook1/images/book-cover.svg" alt="ภาพปกหนังสือ ครูมืออาชีพ" />
+    <img src="/mybook1/images/book-cover.svg" alt="ภาพปกตำรา มาตรฐานวิชาชีพครู" />
   </div>
   <div class="book-index-cover-text">
     <div class="book-index-brand">
       <img src="/mybook1/images/book-logo.svg" alt="โลโก้หนังสือ" />
-      <span>ครูมืออาชีพ</span>
+      <span>มาตรฐานวิชาชีพครู</span>
     </div>
-    <p>สารบัญบทเรียนสำหรับหนังสือมาตรฐานวิชาชีพครู</p>
+    <p>สารบัญบทเรียนสำหรับตำรามาตรฐานวิชาชีพครู</p>
   </div>
 </div>
 

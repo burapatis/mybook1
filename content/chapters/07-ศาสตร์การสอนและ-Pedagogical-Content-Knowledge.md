@@ -1,6 +1,6 @@
 ---
 title: "บทที่ 7: ศาสตร์การสอนและ Pedagogical Content Knowledge"
-weight: 7
+weight: 80
 ---
 
 **วัตถุประสงค์การเรียนรู้ของบท**

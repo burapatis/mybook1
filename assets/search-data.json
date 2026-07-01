@@ -1,0 +1,23 @@
+[
+{{- $bookSection := default "chapters" .Site.Params.BookSection -}}
+{{- $section := .Site.GetPage $bookSection -}}
+{{- $pages := slice -}}
+{{- if $section -}}
+  {{- range $section.Pages.ByWeight -}}
+    {{- if and (not .Params.bookHidden) (ne .Params.bookSearchExclude true) (ne .Content "") -}}
+      {{- $pages = $pages | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $index, $page := $pages -}}
+{{- if gt $index 0}},{{ end }}
+{
+  "id": {{ $index }},
+  "href": "{{ $page.RelPermalink }}",
+  "title": {{ (partial "docs/title" $page) | jsonify }},
+  "section": {{ (partial "docs/title" $page.Parent) | default $.Site.Title | jsonify }},
+  "content": {{ $page.Plain | jsonify }},
+  "searchKind": {{ (default "chapter" $page.Params.bookSearchKind) | jsonify }}
+}
+{{- end -}}
+]
