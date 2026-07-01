@@ -6,3 +6,6 @@ theme = "hugo-book"
 
 [params]
   BookSection = "chapters"
+
+[markup.goldmark.renderer]
+  unsafe = true

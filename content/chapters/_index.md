@@ -23,15 +23,3 @@ BookSection: "chapters"
 <p>หนังสือเล่มนี้นำเสนอองค์ความรู้ด้านวิชาชีพครูที่จำเป็นต่อการพัฒนาครูมืออาชีพในศตวรรษที่ 21 โดยจัดเรียงเป็นบทเรียนเชื่อมโยงกันอย่างเป็นระบบ เพื่อให้ผู้อ่านสามารถเลือกศึกษาตามลำดับหรือเลือกบทที่สนใจได้อย่างสะดวก</p>
 </div>
 
-<ol class="book-index-list">
-{{ range .Pages.ByWeight }}
-{{ if ne .Title "สารบัญบทเรียน" }}
-<li class="book-index-item">
-  <a class="book-index-link" href="{{ .RelPermalink }}">
-    <span class="book-index-title">{{ .Title }}</span>
-    <span class="book-index-meta">เปิดอ่าน</span>
-  </a>
-</li>
-{{ end }}
-{{ end }}
-</ol>

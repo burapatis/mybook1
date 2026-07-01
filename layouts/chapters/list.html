@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="markdown book-article">
+  {{ .Content }}
+
+  <ol class="book-index-list">
+    {{ range .Pages.ByWeight }}
+      {{ if ne .Title "สารบัญบทเรียน" }}
+    <li class="book-index-item">
+      <a class="book-index-link" href="{{ .RelPermalink }}">
+        <span class="book-index-title">{{ .Title }}</span>
+        <span class="book-index-meta">เปิดอ่าน</span>
+      </a>
+    </li>
+      {{ end }}
+    {{ end }}
+  </ol>
+</article>
+{{ end }}

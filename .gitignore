@@ -2,3 +2,8 @@
 .hugo_build.lock
 public/
 resources/
+
+# Editor
+.idea/
+.vscode/
+*.swp
