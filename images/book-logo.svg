@@ -1,0 +1,13 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">โลโก้ มาตรฐานวิชาชีพครู</title>
+  <desc id="desc">สัญลักษณ์หนังสือตำรามาตรฐานวิชาชีพครู</desc>
+  <rect width="220" height="220" rx="42" fill="#F4F8FB"/>
+  <path d="M58 50C58 41.1634 65.1634 34 74 34H145C153.837 34 161 41.1634 161 50V170C161 178.837 153.837 186 145 186H74C65.1634 186 58 178.837 58 170V50Z" fill="#2B5D8C"/>
+  <path d="M70 56C70 49.3726 75.3726 44 82 44H139C145.627 44 151 49.3726 151 56V163C151 169.627 145.627 175 139 175H82C75.3726 175 70 169.627 70 163V56Z" fill="#EAF2FA"/>
+  <path d="M84 56H105V175H84V56Z" fill="#2B5D8C"/>
+  <circle cx="114" cy="94" r="16" fill="#D7A35B"/>
+  <path d="M98 119H130V164H98V119Z" fill="#D7A35B"/>
+  <path d="M88 58C88 53.0294 92.0294 49 97 49H122C126.971 49 131 53.0294 131 58V67H88V58Z" fill="#D7A35B"/>
+  <path d="M146 55L174 73L146 91V55Z" fill="#2B5D8C"/>
+  <path d="M67 129C67 119.611 74.6112 112 84 112H88V145H84C74.6112 145 67 137.389 67 128V129Z" fill="#2B5D8C"/>
+</svg>

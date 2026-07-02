@@ -1,0 +1,15 @@
+{
+  "name": "มาตรฐานวิชาชีพครู",
+  "short_name": "มาตรฐานวิชาชีพครู",
+  "start_url": "/mybook1/",
+  "scope": "/mybook1/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/mybook1/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
